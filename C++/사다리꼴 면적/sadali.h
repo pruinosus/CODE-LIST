@@ -1,4 +1,4 @@
-#pragma once
+#pragma once //헤더의 중복 포함 방지
 
 class sadali {
 private:
