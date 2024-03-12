@@ -15,7 +15,7 @@ sadali::sadali(int a, int b, int c) {
     up = a;
     down = b;
     hei = c;
-    calculator_sadali(); // 사다리꼴의 넓이를 계산하는 함수 호출
+    calculator_sadali(); // 사다리꼴의 넓이를 계산하는 함수 호출합니다.
 }
 
 // 사다리꼴의 넓이를 계산하는 멤버 함수
