@@ -9,5 +9,8 @@ int main() {
 
     // 자동차의 속도를 증가시키고 감속합니다.
     pruinosus.Accel(); // 가속을 수행합니다.
+    pruinosus.Accel(); // 가속을 수행합니다.
     pruinosus.Break(); // 감속을 수행합니다.
+    pruinosus.ShowCarState(); // 자동차의 현재 상태를 출력합니다.
+
 }
