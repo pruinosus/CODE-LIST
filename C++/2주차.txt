@@ -1,0 +1,31 @@
+[객체지향 개발순서]
+속성
+생성자
+getter
+setter
+일반메서드
+
+생성자 함수의 매개변수 생략가능
+- 컴파일러가 자동으로 생성하기 때문
+
+
+==============================================================
+[위임 생성자1]
+sadali :: sadali() : sadali(10,10,10) {}
+
+sadali :: sadali(int a, int b) : sadali(a,b,5) {}
+
+sadali :: sadali(int a,int b,int c){
+    up = a, down = b,hei = c;
+    calculator_sa();
+}
+
+==============================================================
+[위임 생성자2]
+sadali :: sadali() : up(10), down(10), hei(10) {}
+
+sadali :: sadali(int a,int b) : up(a), down(b), hei(5) {}
+
+sadali :: sadali(int a,int b,int c): up(a), down(b), hei(c) {}
+================================================================
+
