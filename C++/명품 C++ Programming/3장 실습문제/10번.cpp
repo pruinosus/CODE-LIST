@@ -10,7 +10,7 @@ public:
 	void setValue(int x, int y); // x와 y 값을 설정하는 함수
 	int calculate(); // 덧셈을 수행하여 결과를 반환하는 함수
 };
-
+#include "Add.h" //합 
 // Add 클래스의 setValue 함수 구현
 void Add::setValue(int x, int y) {
 	this->x = x;
@@ -29,7 +29,7 @@ public:
 	void setValue(int x, int y); // x와 y 값을 설정하는 함수
 	int calculate(); // 뺄셈을 수행하여 결과를 반환하는 함수
 };
-
+#include "Sub.h" //차 
 // Sub 클래스의 setValue 함수 구현
 void Sub::setValue(int x, int y) {
 	this->x = x;
@@ -48,7 +48,7 @@ public:
 	void setValue(int x, int y); // x와 y 값을 설정하는 함수
 	int calculate(); // 곱셈을 수행하여 결과를 반환하는 함수
 };
-
+#include "Mul.h" //곱 
 // Mul 클래스의 setValue 함수 구현
 void Mul::setValue(int x, int y) {
 	this->x = x;
@@ -67,7 +67,7 @@ public:
 	void setValue(int x, int y); // x와 y 값을 설정하는 함수
 	int calculate(); // 나눗셈을 수행하여 결과를 반환하는 함수
 };
-
+#include "Div.h" //분수
 // Div 클래스의 setValue 함수 구현
 void Div::setValue(int x, int y) {
 	this->x = x;
@@ -86,10 +86,6 @@ int Div::calculate() {
 #include <iostream>
 #include <string>
 #include "calculator.h" // 계산기 클래스 헤더 파일 포함
-#include "Add.cpp" //합
-#include "Sub.cpp" //차
-#include "Mul.cpp" //곱
-#include "Div.cpp" //분수
 
 using namespace std;
 
